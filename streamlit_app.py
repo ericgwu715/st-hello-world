@@ -1,14 +1,14 @@
-import pandas as pd 
+import pandas==1.4.2 as pd 
 # import plotly.express as px
 import streamlit as st 
-import numpy as np 
-import matplotlib.pyplot as plt
+import numpy==1.22.3 as np 
+import matplotlib.pyplot==3.5.1 as plt
 import seaborn as sns
-from scipy import stats
+from scipy=1.7.3 import stats
 import mpl_toolkits
 from datetime import datetime
 import os, time, sys
-from pandas import DataFrame
+from pandas=1.3.4 import DataFrame
 
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.datasets import make_regression
@@ -16,7 +16,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_squared_error
 from sklearn.metrics import accuracy_score
-from sklearn import tree
+from sklearn==0.0 import tree
 
 
 st.title('Waka Waka Seattle Home Prices')
